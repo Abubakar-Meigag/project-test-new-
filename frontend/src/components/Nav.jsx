@@ -11,33 +11,33 @@ import image from "../components/images/tom-user.png";
 const Nav = () => {
   return (
     <div>
-      <div className="navbar p-5 bg-blue-400 min-w-max">
+      <div className="navbar p-5 bg-sky-950  min-w-max text-fuchsia-100">
         <div className="hidden md:flex">
           <ul className="flex gap-1 pl-5 font-bold">
-            <li className="inline-flex p-2 hover:text-fuchsia-100">
+            <li className="inline-flex p-2 hover:text-sky-300">
               <Link to="/">
                 <BsMenuButtonWideFill
                   className={`rounded cursor-pointer block float-left mr-1 duration-500 text-3xl`}
                 />
               </Link>
-              <Link to="/" className="pt-1">
+              <Link to="/" className="pt-1 text-">
                 Dashboard
               </Link>
             </li>
 
-            <li className="inline-flex p-2 hover:text-fuchsia-100">
+            <li className="inline-flex p-2 hover:text-sky-300">
               <Link to="/topics">
                 <LuClipboardEdit
                   className={` rounded cursor-pointer block float-left  text-3xl duration-500
                 `}
                 />
               </Link>
-              <Link to="/topics" className="pt-1">
+              <Link to="/topics" className="pt-1 ">
                 Topics
               </Link>
             </li>
 
-            <li className="inline-flex p-2 hover:text-fuchsia-100">
+            <li className="inline-flex p-2 hover:text-sky-300">
               <Link to="/test">
                 <FaClipboardCheck
                   className={`rounded cursor-pointer block float-left  text-3xl duration-500`}
@@ -86,7 +86,7 @@ const Nav = () => {
         </div>
 
         <div className="navbar-center">
-          <div className=" normal-case text-3xl font-semibold  text-center mr-32 text-white">
+          <div className=" normal-case text-3xl font-semibold  text-center mr-32 text-fuchsia-100">
             CYF Spaced Repetition
           </div>
         </div>
@@ -97,10 +97,7 @@ const Nav = () => {
               <div className="dropdown dropdown-end">
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                   <div className="w-16 rounded-full">
-                    <img
-                      src={image}
-                      alt="none"
-                    />
+                    <img src={image} alt="none" />
                   </div>
                 </label>
                 <ul
