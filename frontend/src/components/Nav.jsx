@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { LuClipboardEdit } from "react-icons/lu";
 import { BsMenuButtonWideFill } from "react-icons/bs";
 import { FaClipboardCheck } from "react-icons/fa6";
+import image from "../components/images/tom-user.png";
 
 
 
@@ -95,10 +96,10 @@ const Nav = () => {
             <div className="flex-none gap-2">
               <div className="dropdown dropdown-end">
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                  <div className="w-10 rounded-full">
+                  <div className="w-16 rounded-full">
                     <img
-                      alt="profile"
-                      src="/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                      src={image}
+                      alt="none"
                     />
                   </div>
                 </label>
