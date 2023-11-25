@@ -91,7 +91,7 @@ const Nav = () => {
           </div>
         </div>
 
-        <div className="navbar-end hidden sm:flex">
+        <div className="navbar-end text-black hidden sm:flex">
           <button className="btn btn-ghost btn-circle">
             <div className="flex-none gap-2">
               <div className="dropdown dropdown-end">
@@ -102,19 +102,23 @@ const Nav = () => {
                 </label>
                 <ul
                   tabIndex={0}
-                  className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+                  className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52 "
                 >
                   <li>
-                    <a href="/#" className="justify-between">
+                    <a href="/#" className="justify-between hover:bg-sky-300">
                       Profile
                       <span className="badge">New</span>
                     </a>
                   </li>
                   <li>
-                    <a href="/#">Settings</a>
+                    <a href="/#" className="hover:bg-sky-300">
+                      Settings
+                    </a>
                   </li>
                   <li>
-                    <a href="/#">Logout</a>
+                    <a href="/#" className="hover:bg-sky-300">
+                      Logout
+                    </a>
                   </li>
                 </ul>
               </div>
