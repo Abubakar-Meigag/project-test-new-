@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div>
       <footer className="footer footer-center p-4 font-bold rounded footer-bottom gap-[1.5rem] bg-sky-950 text-fuchsia-100">
-        <nav className="grid grid-flow-col gap-10 relative">
+        <nav className="grid grid-flow-col gap-10">
           <ul className="flex gap-10">
             <li className="hover:text-sky-300 duration-500">
               <Link to="/">Dashboard</Link>
