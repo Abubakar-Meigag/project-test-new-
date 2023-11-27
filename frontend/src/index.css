@@ -4,7 +4,7 @@
 
 
 .footer-bottom {
-  position: absolute ;
+  position: fixed ;
   bottom: 0px;
   text-align: center;
 }
